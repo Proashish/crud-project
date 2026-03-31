@@ -89,5 +89,10 @@ public class UserController {
         return service.getUsersWithPagination(pageable);
     }
 
+    @GetMapping("/testing")
+    public String testing(){
+        return "testing kar raha hu bhai"
+    }
+
 
 }
