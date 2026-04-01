@@ -97,7 +97,17 @@ public class UserController {
     }
 
     public String kyahaal(){
-        return "Sub mast chal raha hai"
+        return "Sub mast chal raha hai";
+    }
+
+
+
+    public String hee(){
+        return "hee";
+    }
+
+    public String hellow(){
+        return "hee";
     }
 
 
