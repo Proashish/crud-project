@@ -91,6 +91,13 @@ public class UserController {
 
 
 
+    @GetMapping ("/{employeeId}")
+    public String GetEmployeeById(){
+        return "checking kar raha hu";
+    }
+
+
+
 
 
 }
