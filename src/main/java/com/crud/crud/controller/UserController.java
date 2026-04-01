@@ -110,6 +110,10 @@ public class UserController {
         return "hee";
     }
 
+    public String ki(){
+        return "ki";
+    }
+
 
 
 }
