@@ -98,6 +98,8 @@ public class UserController {
 
 
 
-
+    public String gun(){
+        return "do not use";
+    }
 
 }
