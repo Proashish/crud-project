@@ -22,4 +22,9 @@ public class authController {
     public String GetEmployeeById(){
         return "checking kar raha hu";
     }
+
+    @GetMapping ("/{employeeId}")
+    public String checking(){
+        return "second time check kar raha hu";
+    }
 }
