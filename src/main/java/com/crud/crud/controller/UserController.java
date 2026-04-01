@@ -102,4 +102,8 @@ public class UserController {
         return "do not use";
     }
 
+    public String fire(){
+        return "fire";
+    }
+
 }
