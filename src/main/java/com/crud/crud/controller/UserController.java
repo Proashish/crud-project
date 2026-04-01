@@ -89,10 +89,7 @@ public class UserController {
         return service.getUsersWithPagination(pageable);
     }
 
-    @GetMapping("/hello")
-    public String hello(){
-        return "Hello bro";
-    }
+
 
 
 }
