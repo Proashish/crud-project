@@ -96,7 +96,9 @@ public class UserController {
         return "checking kar raha hu";
     }
 
-
+    public String kyahaal(){
+        return "Sub mast chal raha hai"
+    }
 
 
 
